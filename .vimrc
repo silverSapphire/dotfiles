@@ -2,7 +2,6 @@ set nocompatible
 set formatoptions=tcro
 set backspace=indent,eol,start
 
-execute pathogen#infect()
 filetype plugin indent on
 syntax on
 
@@ -20,6 +19,8 @@ set visualbell
 set noerrorbells
 set background=dark
 set cursorline
+set autoindent
+set smartindent
 
 nmap <silent> ,/ :nohlsearch<CR>
 nmap ; :
