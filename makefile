@@ -1,8 +1,13 @@
 install:
+	rm ~/.vimrc
 	ln -s .vimrc ~/
+	rm ~/.gdbinit
 	ln -s .gdbinit ~/
+	rm ~/.tmux.conf
 	ln -s .tmux.conf ~/
+	rm ~/.vim/colors
 	ln -s .vim/colors ~/
+	rm ~/.bash/git-aware-prompt
 	ln -s git-aware-prompt ~/.bash/
 	echo "export GITAWAREPROMPT=~/.bash/git-aware-prompt" > ~/.bashrc
 	echo "source "${GITAWAREPROMPT}/main.sh" > ~/.bashrc
