@@ -70,10 +70,10 @@ hi Label             ctermfg=201   ctermbg=NONE  gui=bold       cterm=bold      
 hi LineNr            ctermfg=36    ctermbg=233   gui=NONE       cterm=NONE      guifg=#00af87  guibg=#121212
 hi Macro             ctermfg=69    ctermbg=NONE  gui=bold       cterm=bold      guifg=#5f87ff  guibg=NONE
 hi MatchParen        ctermfg=50    ctermbg=39    gui=NONE       cterm=NONE      guifg=#00ffd7  guibg=#00afff
-hi ModeMsg           ctermfg=39    ctermbg=232   gui=bold       cterm=bold      guifg=#00afff  guibg=#080808
+hi ModeMsg           ctermfg=39    ctermbg=238   gui=bold       cterm=bold      guifg=#00afff  guibg=#080808
 hi MoreMsg           ctermfg=46    ctermbg=NONE  gui=bold       cterm=bold      guifg=#00ff00  guibg=NONE
 hi NonText           ctermfg=NONE   ctermbg=NONE  gui=NONE       cterm=NONE      guifg=#ff00ff  guibg=NONE
-hi Normal            ctermfg=105   ctermbg=234   gui=NONE       cterm=NONE      guifg=#8787ff  guibg=#1c1c1c
+hi Normal            ctermfg=105   ctermbg=232   gui=NONE       cterm=NONE      guifg=#8787ff  guibg=#1c1c1c
 hi Operator          ctermfg=39    ctermbg=NONE  gui=NONE       cterm=NONE      guifg=#00afff  guibg=NONE
                                                                
                                                                

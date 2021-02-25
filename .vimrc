@@ -2,6 +2,14 @@ set nocompatible
 set formatoptions=tcro
 set backspace=indent,eol,start
 
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'lifepillar/vim-solarized8'
+Plugin 'tpope/vim-fugitive'
+Plugin 'vim-airline/vim-airline'
+
+call vundle#end()
 filetype plugin indent on
 syntax on
 
@@ -25,14 +33,13 @@ set smartindent
 nmap <silent> ,/ :nohlsearch<CR>
 nmap ; :
 
-let g:go_highlight_functions = 1
-let g:go_highlight_function_calls = 1
-let g:go_highlight_operators = 1
-let g:go_highlight_extra_types = 1
-
 inoremap { {}<left>
 inoremap ( ()<left>
 inoremap [ []<left>
-inoremap < <lt>><left>
 
-colorscheme neonwave
+colo neonwave
+colo solarized8
+set background=light
+
+set cc=80
+highlight ColorColumn ctermbg=cyan
